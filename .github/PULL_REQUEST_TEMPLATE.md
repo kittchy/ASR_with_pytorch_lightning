@@ -1,22 +1,31 @@
-## What does this PR do?
-
 <!--
-Please include a summary of the change and which issue is fixed.
-Please also include relevant motivation and context.
-List any dependencies that are required for this change.
-List all the breaking changes introduced by this pull request.
+kittchy/infrastructure の Terraform が管理している。直接編集しても次の apply で戻る
+タイトルは「feat: / fix: / docs: / refactor: / ci: / chore: などの接頭辞 + 何をしたか」で書く。
+当てはまらない欄は「なし」と書く。1 項目 1 文で、結論から書く。ファイル名・関数名・数値で言い切る。
 -->
 
-Fixes #\<issue_number>
+Closes #
 
-## Before submitting
+## 変更内容
 
-- [ ] Did you make sure **title is self-explanatory** and **the description concisely explains the PR**?
-- [ ] Did you make sure your **PR does only one thing**, instead of bundling different changes together?
-- [ ] Did you list all the **breaking changes** introduced by this pull request?
-- [ ] Did you **test your PR locally** with `pytest` command?
-- [ ] Did you **run pre-commit hooks** with `pre-commit run -a` command?
+<!--
+何を変えたかを箇条書きで書く。
+-->
 
-## Did you have fun?
+## 設計の判断
 
-Make sure you had fun coding 🙃
+<!--
+選んだ方法と、選ばなかった方法・その理由を書く。
+-->
+
+## 確認したこと
+
+<!--
+流したコマンドと結果、手で確かめた操作を書く。確かめていないこと・確かめられなかったことも理由と一緒に書く。
+-->
+
+## やらないこと
+
+<!--
+この PR の範囲外にしたことと、どこで扱うかを書く。
+-->
